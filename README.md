@@ -97,3 +97,7 @@ public class Main : MonoBehaviour
 8.ビルドしてダイアログが表示されていることを確認
 
 ![ATT_1](https://user-images.githubusercontent.com/26345138/135487106-2026ae04-067b-4d66-902c-1d19ea44570c.png)
+
+## 参考ページ
+- [iOS14のATT(App Tracking Transparency)に対応してAdMob広告を表示した](http://blog.be-style.jpn.com/article/188329627.html)
+
