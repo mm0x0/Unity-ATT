@@ -101,3 +101,6 @@ public class Main : MonoBehaviour
 ## 参考ページ
 - [iOS14のATT(App Tracking Transparency)に対応してAdMob広告を表示した](http://blog.be-style.jpn.com/article/188329627.html)
 
+## その他
+- ローカライズの自動化もしたかったけど、なぜかうまく行かなくてあきらめました…
+
