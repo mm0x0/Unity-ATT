@@ -35,11 +35,9 @@ public class ATT
             OnComplete?.Invoke (0);
             return;
         }
-#if UNITY_IOS
         _context = SynchronizationContext.Current;
         _OnComplete = OnComplete;
         _RequestATT (OnRequestComplete);
-#endif
     }
 
     // ATT要求完了時のコールバック
