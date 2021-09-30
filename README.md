@@ -20,13 +20,13 @@ public class Main : MonoBehaviour
     {
         // iOSのときのみATT操作を実行
 #if UNITY_IOS
-        ManageATT ();
+        RequestATT ();
 #endif
     }
 
 #if UNITY_IOS
     // ATT操作を実行
-    void ManageATT ()
+    void RequestATT ()
     {
         int status = ATT.GetATTStatus ();
 
@@ -38,7 +38,7 @@ public class Main : MonoBehaviour
         {
             // ATT設定不可
             if (status == 1 || status == 2) {
-                CantManageATT ();
+                CantRequestATT ();
                 return;
             }
 
@@ -60,7 +60,7 @@ public class Main : MonoBehaviour
     }
 
     // 設定不可のとき実行
-    void CantManageATT ()
+    void CantRequestATT ()
     {
         Debug.Log ("設定不可");
     }
