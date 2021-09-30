@@ -4,7 +4,7 @@ iOS14からAppleの広告配信用の識別子（IDFA）にアクセスするに
 
 ![ATT_1](https://user-images.githubusercontent.com/26345138/135487106-2026ae04-067b-4d66-902c-1d19ea44570c.png)
 
-# 使い方
+# 使い方（ローカライズして実機で確認まで）
 1. Assetsの中にATT.cs、Plugins > iOSの中にATT.mmを配置する
 
 ![ATT_2](https://user-images.githubusercontent.com/26345138/135490915-7412cdf8-25eb-4501-9d95-9d9a0ce3519c.png)
