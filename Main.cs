@@ -1,8 +1,4 @@
-using System;
-using System.Runtime.InteropServices;
-using System.Threading;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Main : MonoBehaviour
 {
@@ -14,7 +10,6 @@ public class Main : MonoBehaviour
 #endif
     }
 
-#if UNITY_IOS
     // ATT操作を実行
     void ManageATT ()
     {
@@ -54,5 +49,4 @@ public class Main : MonoBehaviour
     {
         Debug.Log ("設定不可");
     }
-#endif
 }
