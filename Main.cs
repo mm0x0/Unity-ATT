@@ -10,6 +10,7 @@ public class Main : MonoBehaviour
 #endif
     }
 
+#if UNITY_IOS
     // ATT操作を実行
     void ManageATT ()
     {
@@ -49,4 +50,5 @@ public class Main : MonoBehaviour
     {
         Debug.Log ("設定不可");
     }
+#endif
 }
